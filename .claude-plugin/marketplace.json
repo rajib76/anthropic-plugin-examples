@@ -1,0 +1,17 @@
+{
+  "name": "my-local-marketplace",
+  "owner": {
+    "name": "Rajib"
+  },
+  "metadata": {
+    "description": "Local marketplace for learning Claude Code plugins"
+  },
+  "plugins": [
+    {
+      "name": "tavily-search",
+      "source": "./plugins/tavily-search",
+      "description": "Web search and page extraction through the remote Tavily MCP server, plus a web-research skill.",
+      "version": "1.0.0"
+    }
+  ]
+}
